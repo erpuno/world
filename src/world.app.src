@@ -1,0 +1,9 @@
+{application, world,
+ [
+  {description, "WORLD Countries for ERP.UNO"},
+  {vsn, "0.7.22"},
+  {registered, []},
+  {applications, [kernel,stdlib,logger,rocksdb,jsone,kvs]},
+  {mod, { world, []}},
+  {env, []}
+ ]}.
